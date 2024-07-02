@@ -1,0 +1,122 @@
+h1{
+    color: palevioletred;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-size: 40px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 5px 3px 2px;
+    padding-left: 5%;
+    margin-top: 80px;
+}
+.half-width img{
+    width: 100%;
+}
+.header-bg{
+   background-image: url("images/header-bg.png");
+    text-align: center;
+    background-repeat: no-repeat;
+    padding-bottom: 350px;
+    margin-bottom: 5%;
+    margin-top: 30px;
+    background-size: 95%;
+    
+    
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-color:palevioletred;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.Biography-area{
+    background-size: 100%;
+    background-image: url("images/biography-bg.png");
+}
+h3{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 40px;
+}
+*{
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row{
+    float: left;
+    padding-left: 70px;
+    background-size: 100%;
+    background-image: url("images/latest-work-bg.png")
+}
+h4{
+    text-align: center;
+    font-size: 40px;
+}
+h5{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 100px;
+}
+h6{
+    text-align: center;
+    color: rgb(141, 148, 155);
+    font-size: 15px;
+} 
+.last-part{
+    text-align: center;
+    text-overflow: clip;
+}
+.ending{
+    text-align: center;
+}
+footer p{
+    margin-top: 110px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(104, 112, 106);
+}
+.center{
+    text-align: center;
+}
+
+.box{
+  background-color: rgb(162, 27, 174);
+  margin: 45px 350px 450px;
+  padding: 13px 10px 5px;
+  border-radius: 2%;
+}
+.email{
+    text-decoration: none;
+}
+.color{
+    font-size: 25px;
+    color: white;
+}
+.calar{
+    font-size: 15px;
+    color: white;
+}
+.footer{
+   background-repeat: no-repeat;
+    background-size: 88%;
+    background-image: url("images/footer-bg.png");
+}
